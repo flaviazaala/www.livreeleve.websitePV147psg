@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+body {
+  background-color: #17012b;
+
+}
+
+header {
+  padding: 6px 2%;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  background: linear-gradient(300deg, #F179FC 0%, #f2295b 100%);
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.img-secret {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.text-head {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.player-vsl {
+  width: 100%;
+  /* height: 360px; */
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 0 .5rem 0;
+  margin-top: .7rem;
+}
+
+.volume img {
+  width: 24px;
+}
+
+.volume span {
+  font-size: 1.2rem;
+  margin-left: .4rem;
+}
+
+.actionCta {
+  display: none;
+  justify-content: center;
+  margin: 1.3rem auto;
+  background: #FF148C;
+  border-radius: 12px;
+  padding: 2px 25px;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.actionCta h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.actionCta p {
+  color: rgb(255, 255, 0);
+  margin-top: -12px;
+}
+
+.actionCta img {
+  width: 65px;
+  margin-right: 10px;
+  transform: rotate(100deg);
+}
+
+@media (max-width: 768px) {
+  .img-secret img {
+    width: 100%;
+  }
+
+  .text-head img{
+    width: 100%;
+  }
+
+  /* .player-vsl {
+    height: 218px;
+  } */
+
+  .volume img {
+    width: 20px;
+  }
+  
+  .volume span {
+    font-size: 1rem;
+    margin-left: .4rem;
+  }
+}
